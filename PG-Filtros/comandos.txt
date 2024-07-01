@@ -1,0 +1,29 @@
+Comandos para ativar filtros e trocas os stickers
+
+ESC = Fecha a janela
+n = Troca de imagem
+s = Salva a imagem
+x = Reseta a imagem / volta a ser RGB
+
+STICKERS:
+a = Aranha
+b = Boom
+c = Chapeu de cowboy
+e = Estrela
+g = Gato
+o = Oculos escuro
+r = Rosto com sorriso
+y = Yeah
+
+FILTROS:
+1 = HSV
+2 = Canny
+3 = Blur
+4 = Gaussian Blur
+5 = Grayscale
+6 = Sharpening
+7 = Cores invertidas
+8 = Imagem com filtro vermelho
+9 = Imagem com filtro verde
+0 = Imagem com filtro azul
+q = Imagem em preto e branco
