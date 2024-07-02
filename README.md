@@ -1,5 +1,7 @@
 # Nome: Rodrigo Fuelber Franke
 
+Após a apresentação do dia 01/07/2024, foi adicionado a opção de utilizar a webcam!
+
 ## Aplicativo para aplicar filtros e stickers em uma imagem.
 
 ### O que instalar (em Python):
@@ -17,7 +19,7 @@
 - **s** = Salva a imagem
 - **x** = Reseta a imagem / volta a ser RGB
 
-### STICKERS:
+### STICKERS (não funciona para a câmera):
 - **a** = Aranha
 - **b** = Boom
 - **c** = Chapeu de cowboy
