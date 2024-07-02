@@ -163,7 +163,13 @@ def save_image(img, count):
     cv.imwrite(filename, img)
     return count + 1
 
+def save_frame(img, count):
+    filename = 'frame' + str(count) + '.jpg'
+    cv.imwrite(filename, img)
+    return count + 1
+
 def using_camera():
+    
     count = 0
     source = cv.VideoCapture(0)
     filter = apply_rgb
@@ -211,7 +217,7 @@ def using_camera():
         elif key == ord('x'):
             filter = apply_rgb
         elif key == ord('s'):
-            count = save_image(filter(frame), count)
+            count = save_frame(filter(frame), count)
         
         cv.imshow('App', filter(frame))
         
