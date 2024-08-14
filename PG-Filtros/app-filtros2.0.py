@@ -94,7 +94,7 @@ def apply_inverted(img):
 
 def apply_red(img):
     img_cv = img.copy()
-    img_cv[:, :, (1, 2)] = 0
+    img_cv[:, :, (0, 1)] = 0
     return img_cv
 
 def apply_green(img):
@@ -104,7 +104,7 @@ def apply_green(img):
 
 def apply_blue(img):
     img_cv = img.copy()
-    img_cv[:, :, (0, 1)] = 0
+    img_cv[:, :, (1, 2)] = 0
     return img_cv
 
 def apply_blackWhite(img):
